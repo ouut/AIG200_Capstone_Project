@@ -1,0 +1,29 @@
+# 忽略 Jupyter 自动生成的检查点文件夹
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# 忽略 IPython 的配置和配置文件
+profile_default/
+ipython_config.py
+
+# 忽略 Python 虚拟环境
+.env/
+venv/
+env/
+.venv
+
+# 忽略环境变量文件
+.env.local
+.env.*.local
+
+# 忽略数据和输出文件（根据实际情况取消注释）
+# data/
+# *.csv
+# output/
+# *.png
+
+# 忽略 macOS 和 IDE 的杂项文件
+.DS_Store
+.vscode/
+.idea/
+*.swp
