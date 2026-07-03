@@ -1,0 +1,45 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Model artifacts (will be COPY'd explicitly)
+models/
+output/
+
+# Training data (large, don't include in image)
+data/
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Notebooks & docs (not needed in container)
+*.ipynb
+notebook.py
+doc.md
+*.pdf
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Misc
+README.md
+*.log

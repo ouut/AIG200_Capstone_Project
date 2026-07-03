@@ -1,0 +1,18 @@
+# pytorch environment for computer vision
+name: pytorch
+
+channels:
+- conda-forge
+- defaults
+
+dependencies:
+- pytorch
+- torchvision
+- torchaudio
+- python=3.12
+- numpy
+- matplotlib
+- scikit-learn
+- scipy
+- jupyter
+- pip
